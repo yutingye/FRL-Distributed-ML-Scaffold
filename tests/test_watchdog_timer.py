@@ -10,7 +10,7 @@ from time import sleep
 from unittest import TestCase
 from unittest.mock import patch
 
-from ..watchdog_timer import WatchdogTimer
+from frldistml.scaffold.watchdog_timer import WatchdogTimer
 
 
 class WatchdogTimerTest(TestCase):

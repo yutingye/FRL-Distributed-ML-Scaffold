@@ -20,10 +20,10 @@ import numpy as np
 from mock import patch
 from torch.utils.data import Dataset
 
-from ..indexed_dataset import IndexedDatasetWriterFactory, MultifieldIndexedDataset
-from ..storage import StoragePath
-from ..storage_layers.dataset import IndexedDatasetReader, np_types
-from ..storage_layers.posix_storage import PosixIndexedDatasetReader
+from frldistml.scaffold.indexed_dataset import IndexedDatasetWriterFactory, MultifieldIndexedDataset
+from frldistml.scaffold.storage import StoragePath
+from frldistml.scaffold.storage_layers.dataset import IndexedDatasetReader, np_types
+from frldistml.scaffold.storage_layers.posix_storage import PosixIndexedDatasetReader
 
 
 FIELD = "TEST"

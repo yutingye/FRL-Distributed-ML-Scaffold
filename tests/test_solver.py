@@ -9,8 +9,8 @@ import unittest
 
 import torch
 
-from ..solver import create_lr_scheduler
-from ..types import Mode, OptAlgorithm, OptimOpts, RunOpts
+from frldistml.scaffold.solver import create_lr_scheduler
+from frldistml.scaffold.types import Mode, OptAlgorithm, OptimOpts, RunOpts
 
 
 class TestSolver(unittest.TestCase):

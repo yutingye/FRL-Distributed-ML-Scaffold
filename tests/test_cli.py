@@ -11,7 +11,7 @@ import unittest
 from enum import Enum
 from typing import Dict, List, NamedTuple, Optional
 
-from ..cli import (
+from frldistml.scaffold.cli import (
     ScaffoldHelpFormatter,
     arguments_from_named_tuple,
     compose_type_arguments,
